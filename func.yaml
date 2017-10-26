@@ -1,11 +1,7 @@
 name: jpfaria/iron-hotfunction-example
-version: 0.0.2
-runtime: .go
-entrypoint: ./iron-hotfunction-example
-path: /function
-type: sync
-memory: 128
-max_concurrency: 10
+version: 0.0.6
+runtime: go
+entrypoint: ./func
 format: http
-build:
-  - make binary
+path: /iron-hotfunction-example
+max_concurrency: 10
