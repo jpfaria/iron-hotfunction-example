@@ -1,7 +1,7 @@
 name: jpfaria/iron-hotfunction-example
-version: 0.0.6
+version: 0.0.12
 runtime: go
 entrypoint: ./func
 format: http
-path: /iron-hotfunction-example
+path: /hotfunction-example
 max_concurrency: 10

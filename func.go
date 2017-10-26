@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	//for {
+	for {
 		res := http.Response{
 			Proto:      "HTTP/1.1",
 			ProtoMajor: 1,
@@ -41,5 +41,5 @@ func main() {
 		res.Body = ioutil.NopCloser(&buf)
 		res.ContentLength = int64(buf.Len())
 		res.Write(os.Stdout)
-	//}
+	}
 }
